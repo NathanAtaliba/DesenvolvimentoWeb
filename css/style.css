@@ -4,13 +4,47 @@
     }
     header{
      width :100%;
-     height :100%
+     height :100%vh;
+     overflow: hidden;
     }
+
     .img.wrapper{
     width:100%;
     height: 100%;
+    overflow:hidden;
+    background-color: rgba(0,0, 0, 0.8);
     }
     .img.wrapper img{
         width: 100%;
         height:100%;
+        object-fit: cover;
+        opacity:0.5;
+    }
+    .banner{
+        position:absolute;
+        left:10%;
+        top:15%;
+    }
+    .banner h1{
+        color: #ffff;
+        font-size: 3.5rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 200;
+        text-shadow: 1rem 1rem 2px rgba(0,0, 0, 0.4);
+        line-height: 2.5;
+    }
+    .banner p{
+        font-family: 'Times New Roman', Times, serif;
+        color: #ffff;
+        font-size: 3rem;
+        text-shadow: rem 1rem 2px rgba(0,0, 0, 0.4);
+        margin-bottom: 2.5rem;
+    }
+    .banner button {
+font-family: 'Times New Roman', Times, serif;
+color: #ffff;
+background-color: red;
+padding: 1rem 2rem;
+font-size: 1.8rem;
+border: none;
     }
